@@ -1,96 +1,212 @@
 {
-  "Folder": "MyTelemetry",
+  "Folder": "ACE",
   "FolderList": [
     {
-      "Folder": "Child",
+      "Folder": "OP45",
       "NodeList": [
         {
-          "NodeId": 9999,
-          "Name": "Child Node",
-          "Description": "Child Node for testing"
+          "NodeId": "S2_StationData.partStatus.RF_Read_Complete",
+          "Name": "S2_StationData.partStatus.RF_Read_Complete",
+          "DataType": "Boolean",
+          "ValueRank": -1,
+          "AccessLevel": "CurrentReadOrWrite",
+          "Description": "RF Read Complete status",
+          "NamespaceIndex": 3
         },
         {
-          "NodeId": "c6522393-5ca1-4547-9551-29d110ca4a3f",
-          "Name": "Guid",
-          "Description": "Guid test"
+          "NodeId": "S2_RFWtData.Header.UnitID.Data",
+          "Name": "S2_RFWtData.Header.UnitID.Data",
+          "DataType": "String",
+          "ValueRank": -1,
+          "AccessLevel": "CurrentReadOrWrite",
+          "Description": "Unit ID data",
+          "NamespaceIndex": 3,
+          "Value": ""
+        },
+        {
+          "NodeId": "S2_RFWtData.Header.PalletNumber",
+          "Name": "S2_RFWtData.Header.PalletNumber",
+          "DataType": "Int32",
+          "ValueRank": -1,
+          "AccessLevel": "CurrentReadOrWrite",
+          "Description": "Pallet number",
+          "NamespaceIndex": 3
+        },
+        {
+          "NodeId": "S2_StationData.partStatus.RF_Write_Complete",
+          "Name": "S2_StationData.partStatus.RF_Write_Complete",
+          "DataType": "Boolean",
+          "ValueRank": -1,
+          "AccessLevel": "CurrentReadOrWrite",
+          "Description": "RF Read Complete status",
+          "NamespaceIndex": 3
+        }
+      ]
+    },
+    {
+      "Folder": "OP50",
+      "NodeList": [
+        {
+          "NodeId": "S3_StationData.partStatus.RF_Read_Complete",
+          "Name": "S3_StationData.partStatus.RF_Read_Complete",
+          "DataType": "Boolean",
+          "ValueRank": -1,
+          "AccessLevel": "CurrentReadOrWrite",
+          "Description": "RF Read Complete status for OP50",
+          "NamespaceIndex": 3
+        },
+        {
+          "NodeId": "S3_RFWtData.Header.UnitID.Data",
+          "Name": "S3_RFWtData.Header.UnitID.Data",
+          "DataType": "String",
+          "ValueRank": -1,
+          "AccessLevel": "CurrentReadOrWrite",
+          "Description": "Unit ID data string for OP50",
+          "NamespaceIndex": 3,
+          "Value": ""
+        },
+        {
+          "NodeId": "S3_StationData.Component[2].ID.UnitID.Data",
+          "Name": "S3_StationData.Component[2].ID.UnitID.Data",
+          "DataType": "String",
+          "ValueRank": -1,
+          "AccessLevel": "CurrentReadOrWrite",
+          "Description": "Component 2 Unit ID data for OP50",
+          "NamespaceIndex": 3,
+          "Value": ""
+        },
+        {
+          "NodeId": "S3_StationData.Component[1].ID.UnitID.Data",
+          "Name": "S3_StationData.Component[1].ID.UnitID.Data",
+          "DataType": "String",
+          "ValueRank": -1,
+          "AccessLevel": "CurrentReadOrWrite",
+          "Description": "Component 1 Unit ID data for OP50",
+          "NamespaceIndex": 3,
+          "Value": ""
+        },
+        {
+          "NodeId": "S3_StationData.Component[3].ID.UnitID.Data",
+          "Name": "S3_StationData.Component[3].ID.UnitID.Data",
+          "DataType": "String",
+          "ValueRank": -1,
+          "AccessLevel": "CurrentReadOrWrite",
+          "Description": "Component 3 Unit ID data for OP50",
+          "NamespaceIndex": 3,
+          "Value": ""
+        },
+        {
+          "NodeId": "S3_StationData.partStatus.RF_Write_Complete",
+          "Name": "S3_StationData.partStatus.RF_Write_Complete",
+          "DataType": "Boolean",
+          "ValueRank": -1,
+          "AccessLevel": "CurrentReadOrWrite",
+          "Description": "RF Write Complete status for OP50",
+          "NamespaceIndex": 3
+        }
+      ]
+    },
+    {
+      "Folder": "OP55",
+      "NodeList": [
+        {
+          "NodeId": "S4_StationData.partStatus.RF_Read_Complete",
+          "Name": "S4_StationData.partStatus.RF_Read_Complete",
+          "DataType": "Boolean",
+          "ValueRank": -1,
+          "AccessLevel": "CurrentReadOrWrite",
+          "Description": "RF Read Complete status for OP55",
+          "NamespaceIndex": 3
+        },
+        {
+          "NodeId": "S4_RFWtData.Header.UnitID.Data",
+          "Name": "S4_RFWtData.Header.UnitID.Data",
+          "DataType": "String",
+          "ValueRank": -1,
+          "AccessLevel": "CurrentReadOrWrite",
+          "Description": "Unit ID data string for OP55",
+          "NamespaceIndex": 3,
+          "Value": ""
+        },
+        {
+          "NodeId": "IX_Top_DB.Tab1.Accept",
+          "Name": "IX_Top_DB.Tab1.Accept",
+          "DataType": "Boolean",
+          "ValueRank": -1,
+          "AccessLevel": "CurrentReadOrWrite",
+          "Description": "Top DB Tab1 Accept for OP55",
+          "NamespaceIndex": 3
+        },
+        {
+          "NodeId": "IX_Top_DB.Tab2.Accept",
+          "Name": "IX_Top_DB.Tab2.Accept",
+          "DataType": "Boolean",
+          "ValueRank": -1,
+          "AccessLevel": "CurrentReadOrWrite",
+          "Description": "Top DB Tab2 Accept for OP55",
+          "NamespaceIndex": 3
+        },
+        {
+          "NodeId": "IX_Bottom_DB.Tab1.Accept",
+          "Name": "IX_Bottom_DB.Tab1.Accept",
+          "DataType": "Boolean",
+          "ValueRank": -1,
+          "AccessLevel": "CurrentReadOrWrite",
+          "Description": "Bottom DB Tab1 Accept for OP55",
+          "NamespaceIndex": 3
+        },
+        {
+          "NodeId": "IX_Bottom_DB.Tab2.Accept",
+          "Name": "IX_Bottom_DB.Tab2.Accept",
+          "DataType": "Boolean",
+          "ValueRank": -1,
+          "AccessLevel": "CurrentReadOrWrite",
+          "Description": "Bottom DB Tab2 Accept for OP55",
+          "NamespaceIndex": 3
+        },
+        {
+          "NodeId": "S4_StationData.partStatus.RF_Write_Complete",
+          "Name": "S4_StationData.partStatus.RF_Write_Complete",
+          "DataType": "Boolean",
+          "ValueRank": -1,
+          "AccessLevel": "CurrentReadOrWrite",
+          "Description": "RF Write Complete status for OP55",
+          "NamespaceIndex": 3
+        }
+      ]
+    },
+    {
+      "Folder": "OP60",
+      "NodeList": [
+        {
+          "NodeId": "S5_StationData.partStatus.RF_Read_Complete",
+          "Name": "S5_StationData.partStatus.RF_Read_Complete",
+          "DataType": "Boolean",
+          "ValueRank": -1,
+          "AccessLevel": "CurrentReadOrWrite",
+          "Description": "RF Read Complete status for OP60",
+          "NamespaceIndex": 3
+        },
+        {
+          "NodeId": "S5_RFWtData.Header.UnitID.Data",
+          "Name": "S5_RFWtData.Header.UnitID.Data",
+          "DataType": "String",
+          "ValueRank": -1,
+          "AccessLevel": "CurrentReadOrWrite",
+          "Description": "Unit ID data string for OP60",
+          "NamespaceIndex": 3,
+          "Value": ""
+        },
+        {
+          "NodeId": "S5_StationData.partStatus.RF_Write_Complete",
+          "Name": "S5_StationData.partStatus.RF_Write_Complete",
+          "DataType": "Boolean",
+          "ValueRank": -1,
+          "AccessLevel": "CurrentReadOrWrite",
+          "Description": "RF Write Complete status for OP60",
+          "NamespaceIndex": 3
         }
       ]
     }
-  ],
-  "NodeList": [
-    {
-      "NodeId": 1023,
-      "Name": "ActualSpeed",
-      "Description": "Rotational speed"
-    },
-    {
-      "NodeId": "aRMS"
-    },
-    {
-      "NodeId": "1025",
-      "Name": "DKW",
-      "DataType": "Float",
-      "ValueRank": -1,
-      "AccessLevel": "CurrentReadOrWrite",
-      "Description": "Diagnostic characteristic value"
-    },
-    {
-      "NodeId": "1026",
-      "Name": "Peak value",
-      "DataType": "Float",
-      "ValueRank": -1,
-      "AccessLevel": "CurrentReadOrWrite",
-      "Description": "Peak value of vibration acceleration"
-    },
-    {
-      "NodeId": "1027",
-      "Name": "Vibration Velocity",
-      "DataType": "Float",
-      "ValueRank": -1,
-      "AccessLevel": "CurrentReadOrWrite",
-      "Description": "Mean of the vibration velocity"
-    },
-    {
-      "NodeId": "1029",
-      "Name": "Active power",
-      "DataType": "Float",
-      "ValueRank": -1,
-      "AccessLevel": "CurrentReadOrWrite",
-      "Description": "Active power"
-    },
-    {
-      "NodeId": "1030",
-      "Name": "SampleStringNode",
-      "DataType": "String",
-      "Value": "Some value"
-    },
-    {
-      "NodeId": "1031",
-      "Name": "SampleUint32Node",
-      "DataType": "UInt32",
-      "Value": 1234
-    },
-    {
-      "NodeId": "1032",
-      "Name": "SampleInt32Node",
-      "DataType": "Int32",
-      "Value": -4321
-    },
-    {
-      "NodeId": "1033",
-      "Name": "SampleBooleanNode",
-      "DataType": "Boolean",
-      "Value": true
-    },
-    {
-      "NodeId": "1048",
-      "Name": "Int32 array",
-      "DataType": "Int32",
-      "ValueRank": 1,
-      "ArrayDimensions": [ 5 ],
-      "AccessLevel": "CurrentReadOrWrite",
-      "Description": "Test array of 5 Int32 elements",
-      "Value": [ 1, 2, 3, 4, 5 ]
-    }
-  ]
+  ]    
 }
